@@ -1,0 +1,8 @@
+2 type of url: 
+1 : absolute = the entire path  i.e https://www.applitrack.com/Gwinnett/onlineapp/default.aspx?_gl=1*1ukqboo*_gcl_au*MTY0NjEzMjcwMC4xNzI1NDY2OTY2
+
+2: relative = this is the relative "PATH" to the web resource with no scheme or hostname
+i.e <a href = "./test.html"> test me </a>
+
+link to external site:
+<a href = 

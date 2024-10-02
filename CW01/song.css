@@ -1,0 +1,18 @@
+.artist{
+    font-size: 14pt;
+    font-family: Arial;
+    font-weight: bold;
+    color: moccasin;
+}
+.title {
+    font-size: 14pt;
+    font-family: Arial;
+    font-weight: normal;
+    color: khaki;
+}
+.album {
+    font-size: 12pt;
+    font-family: Arial;
+    font-weight: normal;
+    color: khaki;
+}

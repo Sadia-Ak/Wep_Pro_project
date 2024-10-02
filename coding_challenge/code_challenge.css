@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #87CEEB; /* Sky background */
+}
+
+.road {
+    width: 100%;
+    height: 100px;
+    background-color: #555;
+    position: absolute;
+    bottom: 0;
+}
+
+.car {
+    position: absolute;
+    bottom: 100px; /* Place the car above the road */
+    left: -200px; /* Start the car off-screen */
+    width: 150px;
+    height: auto;
+    animation: moveCar 5s linear infinite;
+}
+
+/* Keyframes for moving the car */
+@keyframes moveCar {
+    0% {
+        left: -200px; /* Start off-screen */
+    }
+    100% {
+        left: 100vw; /* Move off the screen to the right */
+    }
+}
+
+

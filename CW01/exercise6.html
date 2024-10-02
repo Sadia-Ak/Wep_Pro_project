@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Art & Science Website</title>
+    <style>
+       body {
+            background-color: #CFCDC2;
+            font-family: Arial, sans-serif;
+        }
+        #mainDiv {
+            background-color: #686A4E;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .class-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .info-list {
+            list-style: none;
+        }
+        .info-list li {
+            margin-bottom: 10px;
+        }
+        .syllabus-link {
+            color: #977557;
+            text-decoration: underline;
+        }
+        .timetable {
+            border-collapse: collapse;
+            width: 20%;
+        }
+        .timetable th, .timetable td {
+            width: 20%;
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            background-color: #D1E2C4;
+        }
+        #activityDiv {
+            background-color: #757573;
+            border: 2px solid black;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 12px;
+            font-family: Arial, sans-serif;
+        }
+        </style>
+</head>
+
+<body>
+    <a href="index.html"> <br> Main Page</a>
+    <h1></h1>
+    
+    <div id="activityDiv">
+        <h1>HTML Tags and Classes for the School Website</h1>
+        <ul>
+          <li>&lt;header&gt;: To include the school's logo and navigation bar.</li>
+          <li>&lt;p&gt;: For displaying text content and paragraphs.</li>
+          <li>Strong can be used in between the paragraph tag, to showcase importance of Professor, Syallbus, etc.</li>
+          <li>Table (table, tr, td) for timetables for the course schedule</li>
+          <li>&lt;footer&gt;: Footer for contact details and other important links.</li>
+          <li>Div and Span for grouping and inline elements, and the courses</li>
+          <li>&lt;div&gt;: Container to structure the webpage.</li>
+          <li>Image (img) for graphical content</li>
+          <li>List (ul, ol, li) for listing subjects, syllabuses, dates, etc.</li>
+          <li>Style can be used to give it a unique eye catching look </li>
+          <li>&lt;section&gt;: Divides the page into sections like assignments, teachers, etc.</li>
+          <li>Class .timetable for styling timetable content</li>
+        </ul>
+      </div>
+    
+    <div id="mainDiv">
+        
+        <h1 class="class-title">Software Engineering</h1>
+        <ul class="info-list">
+            <li><strong>Exams:</strong> Mid month, ex.. 9/19</li>
+            <li><strong>Labs:</strong> Thursday's class time</li>
+            <li><strong>Professor:</strong> Dr. Sadasivuni</li>
+            <li><strong>Syllabus:</strong> <a href="https://gastate.view.usg.edu/d2l/le/content/2885997/viewContent/58127164/View" target="_blank" class="syllabus-link">Download Here</a></li>
+        </ul>
+        <table class="timetable">
+            <h2>Timetable</h2>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>12:45 pm - 2:30 pm</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>12:45 pm - 2:30 pm</td>
+            </tr>
+    </table>
+    </div>
+        
+</html>
+

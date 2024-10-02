@@ -1,0 +1,58 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 70%;
+}
+
+
+.title {
+    display: flex;
+    align-items: baseline;
+}
+
+
+.summary {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+
+.summary > div > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ingredients, .directions {
+    flex-grow: 1;
+    flex-basis: 45%;
+}
+
+
+.related-content {
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+
+
+img.cookies {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
